@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
+    libshims_ril \
     libxml2
 
 # Sensors
