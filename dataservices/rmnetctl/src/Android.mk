@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librmnetctl_headers
+LOCAL_MODULE := librmnetctl_headers-msm8916
 LOCAL_EXPORT_C_INCLUDE_DIRS:=$(LOCAL_PATH)/inc
 include $(BUILD_HEADER_LIBRARY)
 
@@ -17,7 +17,7 @@ LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 #endif
 
 LOCAL_CLANG := true
-LOCAL_MODULE := librmnetctl
+LOCAL_MODULE := librmnetctl-msm8916
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := qcom
 LOCAL_PROPRIETARY_MODULE := true

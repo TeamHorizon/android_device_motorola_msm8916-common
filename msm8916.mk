@@ -203,7 +203,7 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
-    librmnetctl \
+    librmnetctl-msm8916 \
     libshims_ril \
     libxml2
 
